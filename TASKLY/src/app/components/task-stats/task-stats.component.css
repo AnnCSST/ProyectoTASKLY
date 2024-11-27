@@ -1,0 +1,44 @@
+.task-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px; /* Reducir el ancho máximo del contenedor */
+    background: linear-gradient(135deg, #190d4d, #030c35);
+    border-radius: 60px;
+    padding: 40px;
+}
+
+.card {
+    width: 80%; /* Reducir el ancho de las tarjetas */
+    background-color: rgba(9, 6, 41, 0.8); /* Color de fondo coherente con la página */
+    color: #ffffff; /* Color del texto coherente con la página */
+    padding: 15px; /* Reducir el padding */
+    border-radius: 20px; /* Borde redondeado para que coincida con tu estilo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+    margin: 15px 0; /* Reducir el margen superior e inferior */
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s; /* Añadir transición para el efecto hover */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Efecto hover para resaltar */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Añadir sombra para mayor efecto */
+}
+
+.completed-tasks {
+    border: 1px solid #af9d4c; /* Borde coherente con el estilo */
+}
+
+.pending-tasks {
+    border: 1px solid #af9d4c; /* Borde coherente con el estilo */
+}
+
+.card h3 {
+    font-size: 18px; /* Reducir el tamaño de la fuente */
+    margin-bottom: 8px; /* Ajustar el margen inferior */
+}
+
+.card p {
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+}

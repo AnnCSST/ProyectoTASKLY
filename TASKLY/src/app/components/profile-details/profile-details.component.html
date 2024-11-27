@@ -1,0 +1,18 @@
+<div class="profile-details">
+  <button class="back-button" (click)="goBack()">Volver a los Perfiles</button>
+  <img *ngIf="profile?.image" [src]="profile?.image" alt="Imagen de {{ profile?.name }}" />
+  <h2>{{ profile?.name }}</h2>
+  <p><strong>Email:</strong> {{ profile?.email }}</p>
+  <p><strong>Ubicación:</strong> {{ profile?.location }}</p>
+  <div class="tasks" *ngIf="profile.tasks">
+    <h3>Tareas en Progreso: <span>{{ profile.tasks.inProgress }}</span></h3>
+    <h3>Tareas Pendientes: <span>{{ profile.tasks.pending }}</span></h3>
+    <h3>Tareas Completadas: <span>{{ profile.tasks.completed }}</span></h3>
+  </div>
+  <div *ngIf="!profile.tasks">
+    <p>No hay tareas disponibles para este perfil.</p>
+  </div>
+  <div *ngIf="!profile">
+    <p>Cargando detalles del perfil...</p>
+  </div>
+</div>

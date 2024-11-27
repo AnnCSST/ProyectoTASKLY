@@ -1,0 +1,77 @@
+.settings-container {
+    background: linear-gradient(135deg, #030c35, #190d4d);
+    color: #ffffff;
+    padding: 20px 20px; /* Ajustar padding */
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 900px; /* Ajustar el ancho máximo del contenedor */
+    margin: 100px auto; /* Ajustar el margen superior e inferior */
+    text-align: center;
+}
+
+.settings-header {
+    margin-bottom: 20px; /* Reducir el margen inferior */
+}
+
+.settings-header h2 {
+    font-size: 20px; /* Ajustar el tamaño de la fuente */
+    margin-bottom: 10px;
+}
+
+.settings-header p {
+    font-size: 15px; /* Ajustar el tamaño de la fuente */
+    color: #af9d4c;
+}
+
+.settings-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 20px; /* Espacio entre secciones */
+    margin-bottom: 20px; /* Reducir el margen inferior */
+}
+
+.settings-section {
+    width: 85%; /* Ajustar el ancho para las secciones */
+    background-color: rgba(9, 6, 41, 0.8);
+    padding: 15px; /* Ajustar el padding */
+    border-radius: 50px;
+    border: 1px solid #af9d4c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.settings-section:hover {
+    transform: scale(1.02); /* Efecto hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Añadir sombra para mayor efecto */
+}
+
+.settings-section h3 {
+    font-size: 18px; /* Ajustar el tamaño de la fuente */
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.settings-section p {
+    font-size: 15px; /* Ajustar el tamaño de la fuente */
+    margin: 5px 0;
+    margin-bottom: 15px;
+}
+
+.settings-section button {
+    font-size: 14px; /* Ajustar el tamaño de la fuente */
+    padding: 10px 20px; /* Ajustar padding */
+    border-radius: 20px;
+    border: none;
+    background-color: #201555; /* Color de fondo según .cta-button */
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+
+.settings-section button:hover {
+    background-color: #30315f; /* Efecto hover para el botón */
+}

@@ -1,0 +1,98 @@
+/* Estilo general para la sección de detalles */
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #201466, #02071d);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 100px auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+/* Estilo para la imagen del perfil */
+.profile-details img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+    border: 2px solid #ffffff;
+    object-fit: cover; 
+    margin-bottom: 15px;
+}
+
+/* Estilo para el nombre y los detalles */
+.profile-details h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ffcc00; 
+    text-align: center;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #d1d1e0; 
+    text-align: center;
+}
+
+
+.tasks {
+    background: linear-gradient(135deg, #140c3f, #081347);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%; 
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilo de los encabezados de las tareas */
+.tasks h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #9acdff; 
+}
+
+/* Estilo de los valores dentro de las tareas */
+.tasks span {
+    font-weight: bold;
+    color: #ffcc00; 
+}
+
+
+.profile-details img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.tasks:hover {
+    background: linear-gradient(135deg, #242468, #1e1e50); 
+    transition: background 0.3s ease;
+}
+
+
+.profile-details .tasks {
+    margin-top: 20px;
+}
+
+/* Alineación de las tarjetas */
+.profile-details .tasks h3, .profile-details p {
+    font-family: 'Arial', sans-serif;
+}
+
+.back-button {
+    background-color: #af9d4c;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #ffffff;
+  }
+  

@@ -1,0 +1,21 @@
+.dashboard-intro {
+    text-align: center;
+    background: linear-gradient(135deg, #030c35, #190d4d);
+    color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+.dashboard-intro h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.dashboard-intro p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 20px;
+}

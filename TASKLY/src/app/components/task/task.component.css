@@ -1,0 +1,83 @@
+.tareas-page {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-start; /* Alinear al principio verticalmente */
+    width: 100%; /* Ocupa todo el ancho */
+    padding-top: 150px; /* Espacio para separar del nav */
+    box-sizing: border-box; /* Incluir padding en el tamaño total */
+    background-color: #000000; /* Fondo para verificar visualmente el padding */
+    min-height: 100vh; /* Asegurar que el contenedor ocupe toda la altura de la ventana */
+}
+
+.tareas-container {
+    background: linear-gradient(135deg, #190d4d, #030c35);
+    color: #ffffff;
+    padding: 20px; /* Ajuste para asegurarse de que el contenedor esté bien centrado */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%; /* Ocupar 90% del ancho disponible */
+    max-width: 1400px; /* Asegurar que el contenedor ocupe un buen ancho */
+    margin: 0 auto; /* Centrar el contenedor */
+    display: flex;
+    justify-content: space-around; /* Espacio entre columnas */
+    gap: 20px; /* Espacio entre columnas */
+    flex-wrap: wrap; /* Permitir que las columnas se ajusten a diferentes líneas si es necesario */
+}
+
+.tarea-column {
+    flex: 1; /* Permitir que las columnas crezcan igualmente */
+    background-color: rgba(37, 35, 68, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    overflow-y: auto; /* Permitir scroll vertical en columnas largas */
+}
+
+.tarea-column h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.add-task {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #201555;
+    color: #ECF0F1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-task:hover {
+    background-color: #30315f;
+}
+
+.tarea-card {
+    background-color: rgba(9, 6, 41, 0.8);
+    color: #ECF0F1;
+    padding: 20px;
+    border: 1px solid #FFD700; /* Borde amarillo */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: left;
+    min-height: 150px; /* Asegurar que las tarjetas sean largas */
+}
+
+.tarea-card h3 {
+    margin-top: 0;
+}
+
+.tarea-card p {
+    font-size: 15px;
+}
+
+.tarea-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}

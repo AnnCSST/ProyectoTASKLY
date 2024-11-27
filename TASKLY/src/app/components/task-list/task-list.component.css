@@ -1,0 +1,58 @@
+.task-list-container {
+    text-align: center;
+    background: #190d4d;
+    color: #ffffff;
+    padding: 5px 20px; /* Reducir el padding */
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    width: 65%; /* Reducir el ancho del contenedor */
+}
+
+.task-list-container h2 {
+    font-size: 20px; /* Reducir el tamaño de la fuente */
+    margin-bottom: 10px; /* Reducir el margen inferior */
+}
+
+.task-checkpoints {
+    list-style: none;
+    padding: 0;
+}
+
+.task-checkpoints li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea los elementos al inicio */
+    margin-bottom: 10px; /* Reducir el margen inferior */
+    background-color: rgba(9, 6, 41, 0.8); /* Fondo semitransparente más claro */
+    padding: 12px; /* Reducir el padding */
+    border-radius: 20px;
+    border: 1px solid #af9d4c; /* Borde púrpura */
+    transition: transform 0.2s, box-shadow 0.2s; /* Añadir transición para el efecto hover */
+}
+
+.task-checkpoints li:hover {
+    transform: scale(1.02); /* Reducir la escala de transformación para el efecto hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Mantener la sombra para mayor efecto */
+}
+
+.checkpoint-icon {
+    font-size: 28px; /* Reducir el tamaño del icono */
+    margin-right: 15px; /* Reducir el margen derecho */
+}
+
+.checkpoint-text {
+    text-align: left;
+}
+
+.checkpoint-text h3 {
+    margin: 0;
+    font-size: 17px; /* Reducir el tamaño de la fuente */
+    color: #ffffff; /* Color blanco para los encabezados */
+}
+
+.checkpoint-text p {
+    margin: 5px 0 0;
+    font-size: 16px; /* Reducir el tamaño de la fuente */
+    color: #e0e0e0; /* Color gris claro para el texto */
+}

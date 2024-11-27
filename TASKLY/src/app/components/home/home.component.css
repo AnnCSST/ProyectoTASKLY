@@ -1,0 +1,54 @@
+
+.home-container {
+  max-width: 1100px;
+  margin: 60px auto 0 auto; /* Añadimos margen superior para evitar superposición con el nav */
+  padding: 40px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-text {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.home-text h1 {
+  margin: 0;
+  font-size: 30px;
+  text-align: start;
+}
+
+.home-text p {
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.cta-button {
+  background-color: #201555;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #30315f;
+}
+
+.home-image {
+  flex: 1;
+  text-align: right;
+}
+
+.home-image img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 80px;
+}

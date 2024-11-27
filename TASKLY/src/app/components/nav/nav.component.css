@@ -1,0 +1,46 @@
+.navbar {
+  background: linear-gradient(to right, #000000, #201466, #201466, #000000);
+  color: white;
+  padding: 12px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que el nav esté siempre por encima del contenido */
+  margin-bottom: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Ancho máximo opcional para centrado */
+  margin: 0 auto; /* Centra la navbar-container */
+  padding: 0 20px; /* Espacio lateral opcional */
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer; /* Asegurarse de que el cursor indique que se puede hacer clic */
+}

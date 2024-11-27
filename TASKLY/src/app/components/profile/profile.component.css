@@ -1,0 +1,66 @@
+/* Contenedor general */
+.profiles-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/* Tarjetas de perfil */
+.profile-card {
+  background: linear-gradient(135deg, #030c35, #190d4d); 
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid #af9d4c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Imagen de perfil */
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #af9d4c;
+  margin-bottom: 15px;
+}
+
+/* Nombre */
+.profile-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Detalles */
+.profile-card p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+/* Botón */
+.details-button {
+  background-color: #af9d4c;
+  color: #030c35;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.details-button:hover {
+  background-color: #ffffff;
+  color: #030c35;
+  transform: scale(1.1);
+}

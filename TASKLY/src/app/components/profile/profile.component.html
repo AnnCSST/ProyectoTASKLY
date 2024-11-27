@@ -1,0 +1,10 @@
+
+<div class="profiles-container">
+  <div *ngFor="let profile of profiles" class="profile-card">
+    <img [src]="profile.image" alt="{{ profile.name }}" />
+    <h2>{{ profile.name }}</h2>
+    <p><strong>Email:</strong> {{ profile.email }}</p>
+    <p><strong>Ubicación:</strong> {{ profile.location }}</p>
+    <button class="details-button" (click)="goToProfileDetails(profile.id)">Ver Detalle</button>
+  </div>
+</div>
